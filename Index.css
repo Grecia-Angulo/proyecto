@@ -1,0 +1,323 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    background:  #fafafa;
+}
+
+
+
+h1{
+    font-size: 40px;
+    line-height: 7;
+    letter-spacing: -.2px;
+    color: white;
+    text-align: center;
+    margin-top: -10px;
+
+}
+
+h2{
+    color: fuchsia;
+    text-transform: uppercase;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 24px ;
+    margin-bottom: 40px;
+    text-align: center;
+}
+.clientes{
+    display: flex;
+}
+
+.contenedor{
+    display: flex ;
+    flex-wrap: wrap;
+    margin: 50px;
+    padding: 50px
+}
+.conten-foo{
+
+    
+    padding: 50px;
+   
+    width: 200px;
+    margin: -20px;
+    height: 200px;
+ 
+    
+}
+
+.hero{
+    width: 100%;
+    height: 500px;
+   
+    background: #03001e;  /* fallback for old browsers */
+background: -webkit- linear-gradient(to right, #fdeff9b2, #ec38bc9d, #b645a3af, #e64ee6b6), url(img/descarga.jpg);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #fdeff9b2, #ec38bc9d, #b645a3af, #e64ee6b6), url(img/descarga.jpg);
+ /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+ background-size: cover;
+ background-attachment: fixed;
+ position: relative;
+      width: 100%;
+    height: 300px; 
+    align-items: center;
+    justify-content: space-between;
+   
+   
+    /* fallback for old browsers */
+
+}
+nav{
+    text-align: right;
+    padding: 30px 50px 0 0;
+    }
+
+.wave{
+    position: absolute;
+            bottom: 0;
+            width: 100%;
+}
+.project-details{
+    width: 500px;
+    height: 250px;
+    display: inline-block;
+}
+.bodega{
+    background: #fafafa;
+    padding: 20PX;
+    
+
+}
+.class-cliente-contenedor{
+margin: 20px;
+}
+.project{
+    /*border-top: 10px solid grey;
+    border-right: 10px solid firebrick;
+    border-left: 10px solid fuchsia;
+    border-bottom: 10px solid hotpink;*/
+    /* para poder4 poner el borde en cada titulo y respuesta */
+    /*color: deeppink;*/
+/*border-top-color: fuchsia;
+    border-top-width: 15px;
+    border-top-style: solid;*/
+    /*border: 2px solid fuchsia;*/
+    border-radius: 5px;
+    /*margin: 9px;*/
+    margin-bottom: 15px;
+    background: white;
+    padding: 10px;
+    /* el width y el heigth es para  que el borde se achique*/
+    width: 800px;
+    height:300PX;
+    display: Flex;
+}
+.contenido-texto-card{
+    /*border: 2px solid fuchsia;*/
+    border-radius: 5px;
+    /*margin-bottom: 15px;*/
+    background: white;
+    padding: 30px;
+    height:100PX;
+    /*display: Flex;*/
+    margin: 20px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.project-title{
+    font-size: 30px;
+    
+    }
+.project-Conteiner{
+    width: 20px;
+}
+
+.header{
+    /*EL HEADER ES PARA PONER EL FONDO DEL TITULO*/
+
+    background-size: 500px 500px;
+    background-repeat: no-repeat;
+    background-position-x: right;
+    display: flex;
+    align-items: end;
+    background: -webkit- linear-gradient(to right, #fdeff9b2, #ec38bc9d, #b645a3af, #e64ee6b6);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #fdeff9b2, #ec38bc9d, #b645a3af, #e64ee6b6);
+ /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+ background-size: cover;
+ background-attachment: fixed;
+ position: relative;
+ width: 100%;
+ height: 100px;
+
+}
+
+figure {
+    margin: 0;
+  }
+    .header a{
+        color: #ffffff;
+        text-decoration: none;
+        margin: 20px;
+        padding: 10pxz;
+    }
+    .flexbox{
+    display: flex;
+    height: 300px;
+    align-items: center;
+    /*flex-direction: column;*/
+    justify-content: space-around;
+    justify-content: space-evenly;
+    /*align-items: center;*/
+    /*border: 1px solid  blue;*/
+    flex-direction: column;
+    justify-content: center;
+    
+    }
+    .box{
+        width: 50px;
+        height: 50px;
+        margin: 5px;
+        border: 1px solid crimson;
+        flex-shrink: 0;
+    }
+   
+.contenedor-sobre-nosotros{
+display: flex;
+
+ justify-content: space-evenly;
+        }   
+    .clientes-contenedor{
+        
+display: flex;
+    }
+   
+        .image-about-us{
+            width: 48%;
+        }
+        .contenedor-sobre-nosotros .contenidos-textos{
+            width: 48%;
+            }
+
+
+            .footer{
+                color: #000000;
+                background-color: #FF69B4;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+            }
+        
+           .footer a{
+            color: #000000;
+        }
+        .pisco-lis{
+            display: flex;
+            flex-wrap: wrap;
+            
+        }
+        .pisco-lis-title{
+            margin-left: 20px;
+        }
+        .pisco{
+        
+            margin: 10px;
+            padding: 9px;
+            width: 400px;
+          flex-shrink: 0;
+            border-radius: 10px;
+            overflow: hidden;    
+            background: #E0F7FA;
+        } 
+        .pisco-image{
+            width: 400px;
+            height: 300px;
+            align-items: center;
+            background: gray;
+   
+          }
+          .pisco-details{
+            margin: 20px 50px;
+            margin-top: -40px;
+            background-color: white ;
+            position: relative ; /*es para poner encima de otro*/
+            padding: 40px;
+            text-align: center;
+        
+        }
+    .pisco-description{
+            text-align: left;
+        }
+        .copa{
+            width: 480px;
+            object-fit: cover;
+            display: flex;
+            margin: 30px;
+            padding: 50px;
+       
+            
+   
+          }
+        .copa-img{
+            width: 300px;
+            object-fit: cover;
+            display: flex;
+            border-radius: 5px;
+            margin: 9px;
+            padding: 10px;
+            background: gray;
+        }
+        .contact{
+            background-color: #FF69B4;
+            color: white;
+            height: 150px;
+            display: flex;
+            align-items: center;
+            text-transform: uppercase;
+            justify-content: space-between;
+        }
+        .form-email input{ 
+            border-color: gray;
+            border-style: solid;
+            border-radius: 5px;
+            padding: 10px 20px 10px 25px;
+            background-image: url(./img/enve.jpg);
+            background-size: 15px 15px;
+            background-repeat: no-repeat;
+            background-position-y: center;
+            background-position-x: 5px;
+            margin: 10px;
+        }
+        .form-email button{
+            display: block;
+            margin-top: 10px;
+            background: transparent;
+            color: white;
+            padding: 10px 0;
+            border-radius: 5px;
+            width: 100px;
+           margin: 10px;
+           /* margin: 10px auto 0;*/
+        
+        }
+        .form-email h3{
+            font-family: 'Times New Roman', Times, serif;
+       margin: 10px;
+            
+        }
+        .Form-Email{
+            margin: 20px;
+        }
+        .container{
+            /* border: 1px solid  red;*/
+             width: 1000px;
+             margin: 0 auto;
+             display: inherit;
+             justify-content: inherit;
+             align-items: inherit;
+             height: inherit;
+            flex-wrap: inherit;
+         }
+         .Titulo-Final{
+             margin: 10px;
+         }
